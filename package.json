@@ -1,0 +1,14 @@
+{
+  "name": "nightwatchBootcamp",
+  "version": "1.0.0",
+  "description": "nightwatch bootcamp",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "nightwatch": "^1.0.19"
+  }
+}

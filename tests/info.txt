@@ -1,0 +1,11 @@
+- npm init
+- npm install --save-dev nightwatch //upon local installation u have to 'node nightwatch' otherwise(global) 'nightwatch'
+- node nightwatch -e chrome tests/login-assert-style.js // to execute tests
+- to disable some test; 'Try Login with valid credentials':function (browser) { -> 'Try Login with valid credentials': ''+ function (browser) {
+- https://github.com/bilal-ahmed211
+- '@tags': ['assert-style-login-test']
+- node nightwatch -e chrome --skiptag assert-style-login-test
+- node nightwatch -e chrome --tag assert-style-login-test //to execute without filePath
+- node nightwatch -e chrome,firefox --tag assert-style-login-test //multi browser
+- npm install handlebars fs path
+- node nigthwatch -e chrome anytest --reporter html-reporter.js //

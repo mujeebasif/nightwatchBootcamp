@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<testsuites errors="1"
+            failures="0"
+            tests="0">
+
+  <testsuite name="assert-style.test"
+    errors="1" failures="0" hostname="" id="" package="assert-style.test" skipped="1"
+    tests="0" time="0.000" timestamp="">
+  
+
+  
+
+  
+    
+    <testcase
+      name="Try Login with Valid Credentials" classname="assert-style.test">
+      <skipped />
+    </testcase>
+    
+  
+  </testsuite>
+</testsuites>
